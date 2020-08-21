@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --gy: #e2e5e2d7;
+    --bl: #0275d8;
+}
+.blog{
+    background-color: var(--gy);
+}
+.first{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 2rem;
+}
+.center{
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.image{
+    background-color: var(--bl);
+    border-radius: 1rem;
+}
+.card-img{
+    border-radius: 1rem;
+}
